@@ -22,6 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+  padding: 20px;
   font-size: 25px;
   border-radius: 15px;
   background: rgb(255, 255, 255);
@@ -142,9 +143,10 @@ button {
 }
 
 #histories {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
 }
 
 .card {
@@ -191,6 +193,11 @@ button {
   .card {
     flex-direction: column;
   }
+  #histories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  } 
 }
  
 
