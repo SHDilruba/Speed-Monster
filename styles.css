@@ -12,7 +12,7 @@ body {
 }
 
 .box-container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -63,8 +63,8 @@ body {
 }
 #result {
   position: fixed;
-  top: 10%; 
-  left: 10%;
+  top: 50%; 
+  left: 50%;
   transform: translate(-50%, -50%);
   height: 250px;
   width: 400px;
@@ -152,6 +152,8 @@ button {
   height: 100%;
   padding: 50px;
   display: flex;
+  flex-direction: column;
+  text-align: center;
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
@@ -190,3 +192,6 @@ button {
     flex-direction: column;
   }
 }
+ 
+
+
